@@ -15,15 +15,15 @@
         <header>
             <nav id="myNavpanel" class="navpanel">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Skills</a>
+                <a href="#about-me">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
                 <a href="#">Contact</a>
             </nav>
             <button class="openbtn" onclick="openNav()">&#9776;</button>
             <script src="index.js"></script>
         </header>
-        <main class="about-me">
+        <main class="about-me" id="about-me">
             <div class="pic-of-me">
                 <img src="images/me.jpg" alt="">
             </div>
@@ -34,7 +34,7 @@
                 </p>
             </div>
         </main>
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2>Skills</h2>
             <div class="icons">
                 <i class="fab fa-html5"></i>
@@ -42,8 +42,34 @@
                 <i class="fab fa-js-square"></i>
                 <i class="fab fa-git"></i>
                 <i class="fab fa-github"></i>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="images">
+                <figure class="home-page">
+                    <a href="https://ionpara.github.io/" target="blank"><img src="images/homepage.png" alt=""></a>
+                    <figcaption>Company Home Page</figcaption>
+                </figure>
+                <figure class="responsive">
+                    <a href="https://ionpara.github.io/responsive-club/" target="blank"><img src="images/responsive.png" alt=""></a>
+                    <figcaption>Responsive Club</figcaption>
+                </figure>
+                <figure class="dasmoto">
+                    <img src="images/dasmoto.png" alt="">
+                    <figcaption>Dasmoto's Arts & Crafts</figcaption>
+                </figure>
+                <figure class="cheat-sheet">
+                    <a href="https://ionpara.github.io/Basic-CSS-Cheat-Sheet/" target="blank"><img src="images/cheatSheet.png" alt=""></a>
+                    <figcaption>Cheat Sheet</figcaption>
+                </figure>
+                <figure class="more-coming">
+                    <img src="images/moreComing.png" alt="">
+                    <figcaption>More Coming</figcaption>
+                </figure>
 
             </div>
         </section>
+        <footer>&copy <em>by Ion Para</em></footer>
     </body>
 </html>
